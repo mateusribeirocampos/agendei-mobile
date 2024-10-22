@@ -1,11 +1,12 @@
-import { Text, View } from 'react-native';
+import Login from "./src/screens/login/login.jsx";
 
-export default function App() {
+function App() {
 
-  var nome = "Mateus Campos";
   return (
-    <View>
-      <Text>Olá, {nome}</Text>
-    </View>
+    <>
+      <Login/>
+    </>
   );
 }
+
+export default App;
