@@ -21,11 +21,13 @@ export const styles = {
   containerInput: {
     marginBottom: 15,
   },
+
   input: {
     backgroundColor: COLORS.gray5,
     padding: 10,
     borderRadius: 6,
   }, 
+
   footer: {
     alignItems: 'center',
     flexDirection: 'row',
